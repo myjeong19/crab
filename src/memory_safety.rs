@@ -11,7 +11,7 @@ pub fn memory_safety () {
     // if a variable is only initialized in one branch (if without else), 
     // Rust cannot guarantee its initialization and throws an error.
     // if both if and else initialize the variable, Rust ensures it is always assigned, so no error occurs.
-    // this strict rule enhances Rust’s memory safety by preventing the use of uninitialized memory. 🚀
+    // this strict rule enhances Rust’s memory safety by preventing the use of uninitialized memory. 
     // let enigma;
     // if true {
     //     enigma = 1;
